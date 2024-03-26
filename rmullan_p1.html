@@ -4,23 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css"  />
-    <title>Business Analytics Student Survey
+    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+    <script src="https://kit.fontawesome.com/144bfee917.js" crossorigin="anonymous"></script>      <title>Business Analytics Student Survey
     </title>
-    <h2> Business Analytics Student Survey</h2>
   </head>
+  <body>
+    <div id="container" class="container">
+    <h2> Business Analytics Student Survey</h2>
+  
   <form action="/add" method="POST">
-    <label for="question">My home country is</label><br>
+    <p for="question">My home country is</p>
     <textarea id="answer1" name="question1"></textarea>
         
     <br><br>
 
-    <label for="response2">My home town is</label><span aria-label="required", style="color: red;">*</span><br>
+    <p for="response2">My home town is<span aria-label="required", style="color: red;">*</span></p>
     <textarea id="answer2" name="question2" required></textarea>
         
     <br><br>
         
-    <label for="dropdown1">My homestate is</label><br>
+    <p for="dropdown1">My homestate is</p>
     <select name="state" id="state-select">
         <option value="">-- choose state/territory --</option>
         <option value="AL">AL</option>
@@ -85,8 +88,20 @@
         
     <br><br>
         
-    <label for="dropdown2">My impression of the BAIS major is</label><span aria-label="required", style="color: red;">*</span><i class="fa-solid fa-circle-info fontawesome"></i><span class="tooltip tooltiptext">THE TOOLTIP MESSAGE HERE.</span>
-</span><br>
+    <p for="dropdown2">My impression of the BAIS major is
+    <span aria-label="required", style="color: red;">*</span>
+    
+    <span class="tooltip">
+      <i class="fa-solid fa-circle-info fontawesome"></i>
+      <span class="tooltip tooltiptext"> Very positive = 5 <br> 
+        Somewhat positive = 4 <br> 
+        Neutral = 3 <br> 
+        Somewhat negative = 2 <br> 
+        Very Negative = 1
+      </span>
+    </span></p>
+
+    
     <select id="dropdown2" name="dropdown2" required>
         <option value="">-- choose --</option>
         <option value="option1">1</option>
@@ -96,9 +111,13 @@
         <option value="option5">5</option>
     </select>
     
-    <br><br>
+    <br><br><br><br>
         
-    <button onclick="window.location.href='rmullan_p2.html';">
-        Next</button>
 
   </form>
+
+  <button onclick="window.location.href='rmullan_p2.html';">
+    Next</button>
+  </div>
+  </body>
+  </html>

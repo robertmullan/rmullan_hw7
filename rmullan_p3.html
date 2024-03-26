@@ -4,16 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css"  />
-    <title>Business Analytics Student Survey
+    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+    <script src="https://kit.fontawesome.com/144bfee917.js" crossorigin="anonymous"></script>      
+      <title>Business Analytics Student Survey
     </title>
-    <h2> Business Analytics Student Survey</h2>
+    
   </head>
-  <label for="ice-cream"> Favorite flavor of ice cream: 
-    <select name="ice-cream" id="ice-cream">
+  <body>
+  <div id="container" class="container">
+  <h2> Business Analytics Student Survey</h2>
+  <form action="/add" method="POST"></form>
+  <label for="sex"> What is your sex: 
+    <span class="tooltip">
+      <i class="fa-solid fa-circle-info fontawesome"></i>
+      <span class="tooltip tooltiptext"> Identifying your sex helps us enhance diversity and 
+        inclusivity in tech by addressing historical sex imbalances.
+      </span>
+    </span>
+    <br><br>
+    <select name="sex" id="sex">
       <option value="" selected> Choose one ... </option>
-      <option value="vanilla"> Vanilla </option>
-      <option value="chocolate"> Chocolate </option>
-      <option value="swirl"> Swirl </option>
+      <option value="Male"> Male </option>
+      <option value="Female"> Female </option>
+      <option value="Intersex"> Intersex </option>
+    </select>     
+  </label> <br><br>
+  
+  <form action="/add" method="POST"></form>
+  <label for="race"> What is your race: 
+    <br><br>
+    <select name="race" id="race">
+      <option value="" selected> Choose one ... </option>
+      <option value="white"> White </option>
+      <option value="black or african american"> Black or African American </option>
+      <option value="asian"> Asian </option>
+      <option value="american indian or alaskan native"> American Indian or Alaskan Native </option>
+      <option value="native hawaiian or other pacific islander"> Native Hawaiian or Other Pacific Islander </option>
+      <option value="multiracial"> Multiracial </option>
     </select>     
   </label>
+</form>
+<br><br><br>
+<button onclick="window.location.href='rmullan_p4.html';">
+  Next</button>
+</div>
+</body>
+</html>
