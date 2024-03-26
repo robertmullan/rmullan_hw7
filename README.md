@@ -1,2 +1,6 @@
 #Homework 7
 Digital Product Management Homework 7
+a. In this project, I created a survey. I used many different questions that were free reponse, multichoice, single choice, and dropbox, and also labeled certain questions required or not required and created a tooltip. 
+b. My web form conformed to the best practices because there was a variety of different questions. There was free response, mulitchoice, single choice, and dropbox. Also, only certain questions were required to be answered. If a person, did not feel comfortable answering a question they could skip it. 
+In addition, for the race and sex questions, I gave a variety to ensure that everyone could choose would describes them. I wanted to make sure no one felt misrepresented, so I did my best to give many options. I want to ensure the users make it fully through the survey so I can get the best results. 
+c. My web form provides for user accessibility because I added details to help people taking the survey understand what needs to be done. I added asterisks to question that were required. This allows users to know that this question is important. I also added tooltips to help users. Tooltips help give an understand of the question and gives clarity about what each selection means. 
